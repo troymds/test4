@@ -19,6 +19,7 @@
 		F3D8E71D19E7B2CC00C3631F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3D8E70519E7B2CC00C3631F /* UIKit.framework */; };
 		F3D8E72519E7B2CC00C3631F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F3D8E72319E7B2CC00C3631F /* InfoPlist.strings */; };
 		F3D8E72719E7B2CC00C3631F /* test4Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D8E72619E7B2CC00C3631F /* test4Tests.m */; };
+		F3D8E73219E7B3CE00C3631F /* firsrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D8E73119E7B3CE00C3631F /* firsrViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		F3D8E72219E7B2CC00C3631F /* test4Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "test4Tests-Info.plist"; sourceTree = "<group>"; };
 		F3D8E72419E7B2CC00C3631F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F3D8E72619E7B2CC00C3631F /* test4Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test4Tests.m; sourceTree = "<group>"; };
+		F3D8E73019E7B3CE00C3631F /* firsrViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = firsrViewController.h; sourceTree = "<group>"; };
+		F3D8E73119E7B3CE00C3631F /* firsrViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = firsrViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				F3D8E71019E7B2CC00C3631F /* AppDelegate.h */,
+				F3D8E73019E7B3CE00C3631F /* firsrViewController.h */,
+				F3D8E73119E7B3CE00C3631F /* firsrViewController.m */,
 				F3D8E71119E7B2CC00C3631F /* AppDelegate.m */,
 				F3D8E71319E7B2CC00C3631F /* Images.xcassets */,
 				F3D8E70819E7B2CC00C3631F /* Supporting Files */,
@@ -241,6 +246,7 @@
 			files = (
 				F3D8E71219E7B2CC00C3631F /* AppDelegate.m in Sources */,
 				F3D8E70E19E7B2CC00C3631F /* main.m in Sources */,
+				F3D8E73219E7B3CE00C3631F /* firsrViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
